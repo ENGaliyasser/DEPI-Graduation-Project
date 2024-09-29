@@ -222,9 +222,20 @@ elif page == "Classification":
   # Evaluate the model  
 
   report = classification_report(y_test, y_pred)
-  st.write("### Classification Report")
-
-  st.write(report)
+  # Expected Outcomes
+  st.write("### Expected Outcomes")
+    
+  st.markdown('''
+    - **Customer Segments**: Based on the RFM scores, customers will be categorized into groups such as:
+      - **Loyal Customers**: High frequency and monetary scores.
+      - **At-Risk Customers**: Low recency, low frequency, but high monetary value in the past.
+      - **Potential Loyalists**: Recent but infrequent buyers with high monetary value.
+    
+    - **Business Impact**: The segmentation allows for:
+      - Targeted marketing campaigns for different customer groups.
+      - Retention strategies for at-risk customers.
+      - Reward programs for loyal customers.
+    ''')
 
   # Visualize confusion matrix
   cm = confusion_matrix(y_test, y_pred)
