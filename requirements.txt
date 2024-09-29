@@ -2,6 +2,7 @@ streamlit
 streamlit_elements
 seaborn
 pandas
+openpyxl
 numpy
 joblib
 plotly
