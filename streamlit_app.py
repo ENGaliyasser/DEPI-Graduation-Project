@@ -38,7 +38,7 @@ if page == "Home":
     st.subheader("Meet Our Team")
     col1, col2 = st.columns(2)
     with col1:
-        st.image(ali_img, caption="Ali - Data Analyst")
+        st.image(ali_img, caption="Ali - Data Scientist")
         st.write("Ali is our lead data analyst who specializes in customer insights and RFM modeling.")
     with col2:
         st.image(youssef_img, caption="Youssef - Data Scientist")
