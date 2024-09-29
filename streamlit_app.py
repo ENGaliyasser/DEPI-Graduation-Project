@@ -312,4 +312,4 @@ elif page == "RFM Analysis":
     st.pyplot(fig)
 # Footer
 st.sidebar.write("---")
-st.sidebar.write("Developed with ❤️ by Ali Yasser")
+st.sidebar.write("Developed with ❤️ by Ali Yasser & Yousef Saeed")
