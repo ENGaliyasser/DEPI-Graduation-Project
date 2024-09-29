@@ -58,7 +58,8 @@ if page == "Home":
     - **Data Cleaning**: We handled missing or inconsistent data entries, ensuring the dataset was clean and ready for analysis.
     - **Preprocessing**: The data was preprocessed by normalizing or scaling the Recency, Frequency, and Monetary values where needed. We also categorized customers based on predefined rules.
     - **RFM Scoring**: Customers were assigned scores based on Recency, Frequency, and Monetary values. Each customer received a score for each dimension, allowing us to classify them into segments like 'High Value', 'At Risk', etc.
-    - **Segmentation and Insights**: After scoring, we segmented the customers into groups and derived insights from the analysis, identifying key customer segments for targeted marketing strategies.
+    - **Classification Model**: We implemented a classification machine learning model to further refine customer segmentation. This model helped predict customer behavior and classify customers into predefined categories, enhancing our understanding of customer dynamics.
+    - **Segmentation and Insights**: After scoring and classification, we segmented the customers into groups and derived insights from the analysis, identifying key customer segments for targeted marketing strategies.
     - **Visualization and Reporting**: Finally, we visualized the results with tables, charts, and metrics, which are available throughout this dashboard.
     ''')
 
