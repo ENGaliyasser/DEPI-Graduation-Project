@@ -1,0 +1,10 @@
+streamlit
+streamlit_elements
+pandas
+numpy
+joblib
+plotly
+scikit-learn
+requests
+streamlit-lottie
+category_encoders
